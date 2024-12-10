@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Good day!", "Hey there"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What do you need help with?", "Good day! How may I help you?"]
+      },
+      {
+        "tag": "product_info",
+        "patterns": ["What services do you offer?", "Tell me about your products", "What can you provide?"],
+        "responses": ["We offer AI-powered solutions, data analysis, and cloud services.", "Our services include machine learning, web development, and more.", "We provide end-to-end software development services."]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["What is the cost of service X?", "How much do you charge?", "Tell me about pricing"],
+        "responses": ["Pricing depends on the service. Please contact support for detailed quotes.", "Our pricing is flexible. Contact us for details.", "Prices vary depending on requirements."]
+      },
+      {
+        "tag": "support_contact",
+        "patterns": ["How can I reach customer support?", "I need support", "Contact customer service"],
+        "responses": ["You can reach us at support@example.com.", "Feel free to call us at +123456789.", "Our support team is available at our helpdesk portal."]
+      }
+    ]
+  }
+  
